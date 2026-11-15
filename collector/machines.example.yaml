@@ -1,0 +1,16 @@
+# Shares are mounted read-only beforehand, e.g.:
+#   mount -t cifs //10.20.0.11/Programs /mnt/machines/cnc-01 -o ro,vers=3.0,credentials=/etc/cnc-collector.cred
+repo_root: /srv/cnc-history
+
+machines:
+  - name: cnc-01-router
+    mount: /mnt/machines/cnc-01
+    patterns: ["*.mpr", "*.mprx"]
+
+  - name: cnc-02-machining-center
+    mount: /mnt/machines/cnc-02
+    patterns: ["*.cix", "*.bpp"]
+
+  - name: cnc-03-planer
+    mount: /mnt/machines/cnc-03
+    patterns: ["*.xxl", "*.pgm"]
