@@ -41,3 +41,8 @@ Not a DNC system that sends programs to machines. It only observes. Sending prog
 ## License
 
 MIT (code), CC BY 4.0 (docs).
+
+
+Drafted with AI assistance, based on hands-on experience
+
+More notes and contact: [fornax.ee](https://www.fornax.ee) · Have a similar problem? Write to info@fornax.ee — happy to help.
